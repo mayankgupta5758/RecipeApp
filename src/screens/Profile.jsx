@@ -284,7 +284,7 @@ const Profile = () => {
 
             formData.append(
                 "upload_preset",
-                "recipelelo"
+                "Upladpreset"
             )
 
 
@@ -292,7 +292,7 @@ const Profile = () => {
             const response =
                 await fetch(
 
-                    "https://api.cloudinary.com/v1_1/djzjzlh6y/image/upload",
+                    "https://api.cloudinary.com/v1_1/cloudinaryname/image/upload",
 
                     {
                         method: "POST",
